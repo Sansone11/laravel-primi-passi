@@ -11,13 +11,11 @@
 
     <h3>to do list</h3>
 
-    <ul>
-        <li>
-            @foreach ($lista as $item)
-            {{$item}}
-                
-            @endforeach
-        </li>
-    </ul>
+    <p>  
+        @foreach ($lista as $item) 
+         {{$item}}
+         @endforeach
+    </p>  
+   
 </body>
 </html>

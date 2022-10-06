@@ -17,10 +17,13 @@ Route::get('/', function () {
     $newtitle =[
        'benvenuto'=> 'Hello World',
         'lista'=>[ 
-            'crea una lista',
+            'crea una lista ',
+            '-',
             'vai su home.blade',
+            '-',
             'cicla con un foreach',
-            'stampa la variabile',
+            '-',
+            'stampa il valore salvato in variabile',
         ]
     ];
     return view('home',$newtitle);
