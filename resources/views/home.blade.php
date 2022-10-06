@@ -8,5 +8,16 @@
 </head>
 <body>
     <h1>{{$benvenuto}}</h1>
+
+    <h3>to do list</h3>
+
+    <ul>
+        <li>
+            @foreach ($lista as $item)
+            {{$item}}
+                
+            @endforeach
+        </li>
+    </ul>
 </body>
 </html>

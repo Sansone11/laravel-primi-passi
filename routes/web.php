@@ -16,7 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $newtitle =[
        'benvenuto'=> 'Hello World',
-
+        'lista'=>[ 
+            'crea una lista',
+            'vai su home.blade',
+            'cicla con un foreach',
+            'stampa la variabile',
+        ]
     ];
     return view('home',$newtitle);
 });
